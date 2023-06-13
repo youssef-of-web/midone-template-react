@@ -1,0 +1,10 @@
+.main {
+  background-image: url("../../images/bg-main.svg");
+  @apply py-5 bg-no-repeat bg-fixed;
+}
+
+.dark {
+  .main {
+    background-image: url("../../images/bg-main-dark.svg");
+  }
+}
